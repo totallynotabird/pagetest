@@ -1,4 +1,33 @@
 body {
     background-color: rgb(23, 24, 29);
-    color: rgb(224, 236, 183)
+    color: rgb(224, 236, 183);
 }
+
+#header {
+    height: 10%;
+    min-height: 100px;
+    width: 100%;
+    background-color: #465CA1
+}
+
+#sidebar{
+    min-width: 200px;
+    height: 100%;
+    background-color: #344546;
+    float: left
+}
+
+#main {
+    padding-left: 2em;
+    float: left;
+}
+
+#footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 2em;
+    padding: 1rem;
+    text-align: center;
+  }
